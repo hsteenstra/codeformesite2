@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Code For ME — Learn. Build. Experiment.</title>
+
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span>Code For ME</span>
+      </a>
+
+      <nav class="nav" id="mainNav">
+        <a href="#camps">Camps</a>
+        <a href="#playground">Playground</a>
+        <a href="#codecourse">CodeCourse</a>
+        <a href="photo-gallery.html">Gallery</a>
+        <a href="meet-the-team.html">Team</a>
+      </nav>
+
+      <a class="nav-button" href="https://forms.gle/ZRRLeQ5z7N4fdeMA8" target="_blank" rel="noreferrer">
+        Join the list <span>↗</span>
+      </a>
+
+      <button class="mobile-menu" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="hero-star star-one">✦</div>
+      <div class="hero-star star-two">✦</div>
+
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <div class="eyebrow"><span class="status-dot"></span> FREE CODING PROGRAMS · MAINE</div>
+
+          <h1>
+            Learn to code.<br>
+            <span>Build something.</span>
+          </h1>
+
+          <p class="hero-lede">
+            A student-led coding program making computer science
+            approachable, creative, and actually fun.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button yellow" href="#camps">Explore Camps <span>↓</span></a>
+            <a class="button ghost" href="https://hsteenstra.github.io/sandbox/" target="_blank" rel="noreferrer">Try the Playground <span>↗</span></a>
+          </div>
+
+          <div class="hero-terminal">
+            <div class="terminal-top">
+              <span></span><span></span><span></span>
+              <code>codeforme.py</code>
+            </div>
+            <div class="terminal-body">
+              <div><i>01</i><span class="purple">print</span><b>(</b><em>"Hello, Maine!"</em><b>)</b></div>
+              <div><i>02</i><span class="purple">build</span><b>(</b><em>"something"</em><b>)</b></div>
+              <div><i>03</i><span class="green">learn</span><b>(</b><em>every_day</em><b>=</b><span class="orange">True</span><b>)</b></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-polaroid">
+            <img src="assets/gallery/unnamed-3.jpg" alt="Students at Code For ME">
+            <div class="polaroid-caption">
+              <span>CODE FOR ME</span>
+              <strong>made in Maine ↓</strong>
+            </div>
+          </div>
+
+          <div class="floating-code floating-code-one">
+            <span>python</span>
+            <b>∞</b>
+          </div>
+
+          <div class="floating-code floating-code-two">
+            <span>HTML</span>
+            <b>&lt;/&gt;</b>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="intro section">
+      <div class="container intro-grid">
+        <div>
+          <div class="section-index">01 / THE IDEA</div>
+          <h2>What if coding<br><span>felt like a playground?</span></h2>
+        </div>
+
+        <div class="intro-copy">
+          <p>
+            Code For ME started with a simple idea: students shouldn't need to
+            be experts before they're allowed to make something cool.
+          </p>
+          <p>
+            We teach the fundamentals, then give students room to experiment,
+            mess up, ask questions, and build things that are actually theirs.
+          </p>
+
+          <div class="mini-stats">
+            <div><strong>12–18</strong><span>student ages</span></div>
+            <div><strong>ME</strong><span>made locally</span></div>
+            <div><strong>∞</strong><span>things to build</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUGUST NEWSLETTER ENVELOPE -->
+    <section class="newsletter-section" id="newsletter">
+      <div class="newsletter-noise"></div>
+      <div class="container newsletter-inner">
+        <div class="newsletter-label"><span>✦</span> NEW FROM CODE FOR ME</div>
+
+        <div class="envelope-stage">
+          <button class="envelope" id="newsletterEnvelope" aria-label="Open the August 2026 newsletter">
+            <div class="envelope-back"></div>
+            <div class="envelope-paper">
+              <div class="paper-top">
+                <span>&lt;/&gt; CODE FOR ME</span>
+                <span>08 / 2026</span>
+              </div>
+              <div class="paper-line"></div>
+              <small>SUMMER 2026</small>
+              <h3>A summer<br><span>of building.</span></h3>
+              <p>Open newsletter →</p>
+            </div>
+            <div class="envelope-flap"></div>
+            <div class="envelope-front">
+              <span class="stamp">CODE<br>FOR<br>ME</span>
+              <div class="address">
+                <small>TO:</small>
+                <strong>YOU</strong>
+                <span>From the Code For ME team</span>
+              </div>
+            </div>
+          </button>
+
+          <div class="envelope-hint" id="envelopeHint">
+            <span>↗</span> Click the envelope to open the August newsletter
+          </div>
+        </div>
+
+        <div class="newsletter-copy">
+          <div class="section-index">02 / THE NEWSLETTER</div>
+          <h2>We made<br><span>something fun.</span></h2>
+          <p>
+            A little recap of our summer: Python camps, new teachers,
+            CodeCourse, the playground, and everything we've been building.
+          </p>
+          <a class="text-button" href="https://hsteenstra.github.io/augustnewsletter/" target="_blank" rel="noreferrer">
+            Read the full newsletter <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAMPS -->
+    <section class="camps section" id="camps">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-index">03 / LEARN WITH US</div>
+            <h2>Pick a place<br>to <span>start.</span></h2>
+          </div>
+          <p>Beginner-friendly programs. Real projects. No prior coding experience required.</p>
+        </div>
+
+        <div class="camp-grid">
+          <article class="camp-card python-card">
+            <div class="card-top">
+              <span>01</span><span>PYTHON</span>
+            </div>
+            <div class="camp-icon">Py</div>
+            <h3>Intro to Python</h3>
+            <p>Start from the beginning and learn how to make computers do things with code.</p>
+            <div class="card-bottom">
+              <span>5 DAYS · AGES 12–18</span>
+              <strong>$25</strong>
+            </div>
+            <a href="https://forms.gle/ZRRLeQ5z7N4fdeMA8" target="_blank" rel="noreferrer">Join the list →</a>
+          </article>
+
+          <article class="camp-card html-card">
+            <div class="card-top">
+              <span>02</span><span>WEB DESIGN</span>
+            </div>
+            <div class="camp-icon">&lt;/&gt;</div>
+            <h3>Intro to HTML</h3>
+            <p>Turn a blank page into a real website using HTML, CSS, and a little creativity.</p>
+            <div class="card-bottom">
+              <span>3 DAYS · AGES 12–18</span>
+              <strong>$15</strong>
+            </div>
+            <a href="https://forms.gle/ZRRLeQ5z7N4fdeMA8" target="_blank" rel="noreferrer">Join the list →</a>
+          </article>
+
+          <article class="camp-card advanced-card">
+            <div class="card-top">
+              <span>03</span><span>PYTHON 2.0</span>
+            </div>
+            <div class="camp-icon">{ }</div>
+            <h3>Advanced Python</h3>
+            <p>Take the Python skills you already have and turn them into bigger projects.</p>
+            <div class="card-bottom">
+              <span>3 DAYS · AGES 12–18</span>
+              <strong>$15</strong>
+            </div>
+            <a href="https://forms.gle/ZRRLeQ5z7N4fdeMA8" target="_blank" rel="noreferrer">Join the list →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLAYGROUND -->
+    <section class="playground section" id="playground">
+      <div class="container playground-grid">
+        <div class="playground-copy">
+          <div class="section-index">04 / PLAYGROUND</div>
+          <h2>Don't just<br><span>learn it.</span><br>Run it.</h2>
+          <p>
+            Our Python playground gives students a place to write real code,
+            hit Run, see what happens, and try again.
+          </p>
+          <a class="button navy" href="https://hsteenstra.github.io/sandbox/" target="_blank" rel="noreferrer">
+            Open the Playground <span>↗</span>
+          </a>
+          <small>No download. No setup. Just code.</small>
+        </div>
+
+        <div class="playground-window">
+          <div class="pw-top">
+            <div class="pw-dots"><i></i><i></i><i></i></div>
+            <span>Python Playground</span>
+            <b>RUN ▶</b>
+          </div>
+          <div class="pw-body">
+            <div class="line"><i>1</i><span class="blue">name</span> = <span class="pink">"Code For ME"</span></div>
+            <div class="line"><i>2</i><span class="blue">students</span> = <span class="orange">∞</span></div>
+            <div class="line"><i>3</i><span class="purple">print</span>(<span class="pink">"Let's build!"</span>)</div>
+            <div class="cursor-line"><i>4</i><span class="cursor">▌</span></div>
+          </div>
+          <div class="pw-output">
+            <span>OUTPUT</span>
+            <strong>Let's build!</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CODECOURSE -->
+    <section class="codecourse section" id="codecourse">
+      <div class="container">
+        <div class="codecourse-header">
+          <div>
+            <div class="section-index">05 / CODECOURSE</div>
+            <h2>Learn to code.<br><span>Right in your browser.</span></h2>
+          </div>
+          <p>We're building a bigger learning experience for students and teachers — one lesson at a time.</p>
+        </div>
+
+        <div class="course-ui">
+          <div class="course-sidebar">
+            <div class="course-logo">&lt;/&gt; CodeCourse</div>
+            <div class="progress-label"><span>Your progress</span><b>17%</b></div>
+            <div class="progress"><span></span></div>
+            <ol>
+              <li class="done"><b>01</b><span>Getting Started<small>Meet your code</small></span></li>
+              <li><b>02</b><span>Variables<small>Store information</small></span></li>
+              <li><b>03</b><span>Input<small>Talk to your program</small></span></li>
+              <li><b>04</b><span>Conditionals<small>Make decisions</small></span></li>
+              <li><b>05</b><span>Loops<small>Repeat your ideas</small></span></li>
+              <li><b>06</b><span>Build Something<small>Put it together</small></span></li>
+            </ol>
+          </div>
+
+          <div class="course-main">
+            <div class="course-meta">LESSON 01 / 06 · ONLINE</div>
+            <h3>Getting Started</h3>
+            <p>Your first step into programming. Learn what code is, how programs work, and write your first Python command.</p>
+
+            <div class="course-code">
+              <span class="code-line-number">1</span>
+              <code><em>print</em>(<strong>"Hello, Code For ME!"</strong>)</code>
+              <button class="copy-code" data-copy='print("Hello, Code For ME!")'>Copy</button>
+            </div>
+
+            <div class="course-output">
+              <span>OUTPUT</span>
+              <strong>Hello, Code For ME!</strong>
+            </div>
+
+            <a href="learn.html" class="text-button">Explore CodeCourse <span>→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISSION / FOUNDER -->
+    <section class="mission section">
+      <div class="container mission-grid">
+        <div class="mission-image">
+          <img src="assets/portrait.png" alt="Harper Steenstra">
+          <div class="mission-tag">
+            <small>FOUNDER</small>
+            <strong>Harper Steenstra</strong>
+          </div>
+        </div>
+
+        <div>
+          <div class="section-index">06 / WHY CODE FOR ME</div>
+          <h2>Built because<br><span>someone had to.</span></h2>
+          <p>
+            I discovered coding in third grade. I loved it immediately — but
+            once that class ended, there weren't many opportunities nearby for
+            students like me to keep going.
+          </p>
+          <p>
+            Code For ME grew out of that gap. It is a local program built to make
+            computer science feel less intimidating and more accessible to Maine
+            students.
+          </p>
+          <a class="text-button" href="meet-the-team.html">Meet the team <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAINE PUBLIC -->
+    <section class="feature section">
+      <div class="container feature-card">
+        <div class="feature-copy">
+          <div class="section-index">07 / HEARD AROUND MAINE</div>
+          <div class="feature-label">MAINE PUBLIC</div>
+          <h2>“A Bath 16-year-old started her own coding camp.”</h2>
+          <p>
+            Code For ME was featured by Maine Public as part of a story about
+            bringing more computer science opportunities to students in the local community.
+          </p>
+          <a class="button yellow" href="https://www.mainepublic.org/education-news/2026-08-20/after-finding-few-resources-in-her-community-a-bath-16-year-old-started-her-own-coding-camp" target="_blank" rel="noreferrer">
+            Read the story <span>↗</span>
+          </a>
+        </div>
+        <div class="feature-paper">
+          <div class="paper-brand">MAINE PUBLIC</div>
+          <div class="paper-rule"></div>
+          <small>EDUCATION</small>
+          <h3>Local student<br>builds a coding camp.</h3>
+          <div class="paper-code">&lt;/&gt; CODE FOR ME</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta">
+      <div class="container">
+        <div class="section-index">08 / YOUR TURN</div>
+        <h2>Have an idea?<br><span>Let's build it.</span></h2>
+        <p>Stay in the loop about camps, CodeCourse, new resources, and what we're building next.</p>
+        <a class="button yellow" href="https://forms.gle/ZRRLeQ5z7N4fdeMA8" target="_blank" rel="noreferrer">
+          Join the Code For ME list <span>↗</span>
+        </a>
+        <div class="final-code">while (learning) { buildSomethingAmazing(); }</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html">
+          <span class="brand-mark">&lt;/&gt;</span>
+          <span>Code For ME</span>
+        </a>
+        <p>Accessible coding education for Maine's youth.</p>
+      </div>
+      <div>
+        <small>EXPLORE</small>
+        <a href="meet-the-team.html">Meet the Team</a>
+        <a href="photo-gallery.html">Photo Gallery</a>
+        <a href="learn.html">CodeCourse</a>
+      </div>
+      <div>
+        <small>RESOURCES</small>
+        <a href="resources/what-is-python.html">What is Python?</a>
+        <a href="https://payhip.com/CodeForME" target="_blank" rel="noreferrer">Textbook</a>
+        <a href="https://hsteenstra.github.io/sandbox/" target="_blank" rel="noreferrer">Playground</a>
+      </div>
+      <div>
+        <small>CONTACT</small>
+        <a href="mailto:codeformaine@gmail.com">codeformaine@gmail.com</a>
+        <a href="https://hsteenstra.github.io/augustnewsletter/" target="_blank" rel="noreferrer">August Newsletter ↗</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Code For ME</span>
+      <span>Built with HTML, CSS &amp; JavaScript in Maine.</span>
+    </div>
+  </footer>
+
+  <script src="site.js"></script>
+  <script>
+    // ==============================
+    // MOBILE NAV
+    // ==============================
+    const menu = document.querySelector('.mobile-menu');
+    const nav = document.querySelector('#mainNav');
+
+    if (menu) {
+      menu.addEventListener('click', () => {
+        const open = nav.classList.toggle('open');
+        menu.setAttribute('aria-expanded', open);
+      });
+    }
+
+    // ==============================
+    // NEWSLETTER ENVELOPE
+    // ==============================
+    const envelope = document.querySelector('#newsletterEnvelope');
+    const envelopeHint = document.querySelector('#envelopeHint');
+
+    if (envelope) {
+      envelope.addEventListener('click', () => {
+        if (!envelope.classList.contains('opened')) {
+          envelope.classList.add('opened');
+          envelopeHint.innerHTML = '<span>✦</span> Opening the August newsletter...';
+
+          setTimeout(() => {
+            window.open(
+              'https://hsteenstra.github.io/augustnewsletter/',
+              '_blank',
+              'noopener,noreferrer'
+            );
+            envelopeHint.innerHTML = '<span>✓</span> Newsletter opened — enjoy the summer recap!';
+          }, 1150);
+        } else {
+          window.open(
+            'https://hsteenstra.github.io/augustnewsletter/',
+            '_blank',
+            'noopener,noreferrer'
+          );
+        }
+      });
+    }
+
+    // ==============================
+    // COPY CODE BUTTON
+    // ==============================
+    document.querySelectorAll('.copy-code').forEach(button => {
+      button.addEventListener('click', async () => {
+        const original = button.textContent;
+        try {
+          await navigator.clipboard.writeText(button.dataset.copy);
+          button.textContent = 'Copied!';
+          setTimeout(() => button.textContent = original, 1300);
+        } catch {
+          button.textContent = 'Copy manually';
+          setTimeout(() => button.textContent = original, 1300);
+        }
+      });
+    });
+
+    // ==============================
+    // REVEAL ON SCROLL
+    // ==============================
+    const revealItems = document.querySelectorAll(
+      '.camp-card, .playground-window, .course-ui, .feature-card, .mission-image'
+    );
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    revealItems.forEach(item => revealObserver.observe(item));
+
+    // ==============================
+    // SMALL MOUSE PARALLAX
+    // ==============================
+    const hero = document.querySelector('.hero');
+    const polaroid = document.querySelector('.hero-polaroid');
+
+    if (hero && polaroid && window.matchMedia('(pointer:fine)').matches) {
+      hero.addEventListener('mousemove', (event) => {
+        const rect = hero.getBoundingClientRect();
+        const x = (event.clientX - rect.left) / rect.width - .5;
+        const y = (event.clientY - rect.top) / rect.height - .5;
+
+        polaroid.style.transform =
+          `rotate(${x * 2}deg) translate(${x * 7}px, ${y * 7}px)`;
+      });
+
+      hero.addEventListener('mouseleave', () => {
+        polaroid.style.transform = '';
+      });
+    }
+  </script>
+</body>
+</html>
